@@ -1,0 +1,50 @@
+site_name: Reflexões Sobre a Greve Geral de 2026 na USP
+site_url: https://ogauche.github.io/reflexoes-sobre-a-greve-de-2026-na-usp
+
+theme:
+  logo: stylesheets/icons/human-profile-brain.svg
+  language: pt-BR
+  name: material
+  features:
+    - navigation.path
+    - navigation.footer
+    - toc.integrate
+    - toc.follow
+    - navigation.indexes      # Enables the toggle-list behavior
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list                 # Required to make links open in new tabs
+
+extra_css:
+  - stylesheets/admonitions.css
+
+nav:
+  - Home: index.md
+  - "Prelúdio aos Artigos": preludio-aos-artigos/index.md
+  - "Artigos":
+    - artigos/index.md
+    - "Sobre os Piquetes": artigos/sobre-os-piquetes.md
+    - "Sobre o Apoio da População": artigos/sobre-o-apoio-da-populacao.md
+    - "Faço Primeiro, (Não) Penso Depois": artigos/faco-primeiro-nao-penso-depois.md
+    - "Deusificação do Reitor": artigos/deusificacao-do-reitor.md
+    - "Sobre o Teto de Gastos e a Proposta do DCE": artigos/sobre-o-teto-de-gastos-e-a-proposta-do-dce.md
+    - "Sobre os Bandejões e o CRUSP": artigos/sobre-os-bandejoes-e-o-crusp.md
+    - "Sobre o Aumento do PAPFE": artigos/sobre-o-aumento-do-papfe.md
+    - "Da Política": artigos/da-politica.md
+  - "Sobre Mim": sobre-mim.md

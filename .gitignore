@@ -1,0 +1,20 @@
+# OS generated files (Windows / macOS / Linux Ubuntu)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.directory
+
+# Python e Ambientes Virtuais (CRÍTICO PARA PRIVACIDADE)
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# MkDocs generated HTML (Mantém a branch principal limpa)
+site/
