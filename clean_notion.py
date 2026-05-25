@@ -18,7 +18,7 @@ def clean_string(text):
 # --- WORKSPACE CLEANUP ---
 if os.path.exists(DOCS_DIR):
     for item in os.listdir(DOCS_DIR):
-        if item == 'stylesheets':
+        if item in ['stylesheets', 'javascripts']:
             continue 
         item_path = os.path.join(DOCS_DIR, item)
         if os.path.isdir(item_path):
@@ -51,7 +51,7 @@ for root, dirs, files in os.walk(DOCS_DIR, topdown=False):
 main_md_clean = None
 root_items = os.listdir(DOCS_DIR)
 root_mds = [f for f in root_items if f.endswith('.md')]
-root_dirs = [d for d in root_items if os.path.isdir(os.path.join(DOCS_DIR, d)) and d != 'stylesheets']
+root_dirs = [d for d in root_items if os.path.isdir(os.path.join(DOCS_DIR, d)) and d not in ['stylesheets', 'javascripts']]
 
 if len(root_mds) == 1 and len(root_dirs) == 1:
     root_md = root_mds[0]
@@ -65,8 +65,8 @@ if len(root_mds) == 1 and len(root_dirs) == 1:
 
 # 2a. Merging Subfolders
 for root, dirs, files in os.walk(DOCS_DIR, topdown=False):
-    if 'stylesheets' in dirs:
-        dirs.remove('stylesheets') 
+    if 'stylesheets' in dirs: dirs.remove('stylesheets') 
+    if 'javascripts' in dirs: dirs.remove('javascripts')
     for file in files:
         if file.endswith('.md') and file != 'index.md':
             base = file[:-3]
@@ -76,8 +76,8 @@ for root, dirs, files in os.walk(DOCS_DIR, topdown=False):
 # 3. Resolve Links in Content
 file_map = {}
 for root, dirs, files in os.walk(DOCS_DIR):
-    if 'stylesheets' in dirs:
-        dirs.remove('stylesheets')
+    if 'stylesheets' in dirs: dirs.remove('stylesheets')
+    if 'javascripts' in dirs: dirs.remove('javascripts')
     for file in files:
         rel_path = os.path.relpath(os.path.join(root, file), DOCS_DIR).replace('\\', '/')
         if file == 'index.md':
@@ -90,8 +90,8 @@ for root, dirs, files in os.walk(DOCS_DIR):
             file_map[file] = rel_path
 
 for root, dirs, files in os.walk(DOCS_DIR):
-    if 'stylesheets' in dirs:
-        dirs.remove('stylesheets')
+    if 'stylesheets' in dirs: dirs.remove('stylesheets')
+    if 'javascripts' in dirs: dirs.remove('javascripts')
     for file in files:
         if file.endswith('.md'):
             filepath = os.path.join(root, file)
@@ -100,7 +100,6 @@ for root, dirs, files in os.walk(DOCS_DIR):
 
             # --- EXACT, SAFE LINK PROCESSING ---
 
-            # A. Protect Code Blocks (so we don't accidentally demote Python comments like # comment)
             code_blocks = []
             def repl_code(m):
                 code_blocks.append(m.group(0))
@@ -108,25 +107,29 @@ for root, dirs, files in os.walk(DOCS_DIR):
             content = re.sub(r'```.*?```', repl_code, content, flags=re.DOTALL)
             content = re.sub(r'`[^`]+`', repl_code, content)
 
-            # B. Protect Formatted Markdown Links [text](url)
+            math_blocks = []
+            def repl_math(m):
+                math_blocks.append(m.group(0))
+                return f"__MATH_{len(math_blocks)-1}__"
+            
+            content = re.sub(r'\$\$.*?\$\$', repl_math, content, flags=re.DOTALL)
+            content = re.sub(r'\$(?!\s)[^$\n]+?(?<!\s)\$', repl_math, content)
+
             md_links = []
             def repl_md(m):
                 md_links.append(m.group(0))
                 return f"__MDLINK_{len(md_links)-1}__"
             content = re.sub(r'\[([^\]]+)\]\(((?:[^)(]+|\([^)(]*\))*)\)', repl_md, content)
 
-            # C. Protect HTML Tags (like the images inside callouts)
             html_tags = []
             def repl_html(m):
                 html_tags.append(m.group(0))
                 return f"__HTML_{len(html_tags)-1}__"
             content = re.sub(r'<[^>]+>', repl_html, content)
 
-            # D. Process Bare Unformatted URLs safely (making them clickable and open in new tab)
             def repl_bare(m):
                 url = m.group(0)
                 trailing = ""
-                # Strip trailing punctuation so it doesn't break the Markdown link
                 while url and url[-1] in ".,;!?()":
                     trailing = url[-1] + trailing
                     url = url[:-1]
@@ -134,36 +137,28 @@ for root, dirs, files in os.walk(DOCS_DIR):
 
             content = re.sub(r'https?://[^\s<>]+', repl_bare, content)
 
-            # E. Restore HTML Tags
             for i in range(len(html_tags)-1, -1, -1):
                 content = content.replace(f"__HTML_{i}__", html_tags[i])
 
-            # --- NEW: HEADER DEMOTION ---
-            # Demote every header (add a #) EXCEPT the very first H1 on the page.
             lines = content.split('\n')
             first_header_seen = False
             for i, line in enumerate(lines):
                 if re.match(r'^#+\s', line):
                     if not first_header_seen:
                         first_header_seen = True
-                        # If the very first header is an H1, skip it
                         if line.startswith('# '):
                             continue
-                    # Add one level to all other headers
                     lines[i] = '#' + line
             content = '\n'.join(lines)
 
-            # F. Restore and process Formatted Markdown Links
             for i in range(len(md_links)-1, -1, -1):
                 original_link = md_links[i]
                 match = re.match(r'\[([^\]]+)\]\(((?:[^)(]+|\([^)(]*\))*)\)', original_link)
                 if match:
                     text, url = match.group(1), match.group(2)
                     if url.startswith('http'):
-                        # EXTERNAL LINKS: Apply new tab attribute to already formatted external links!
                         resolved_link = f'[{text}]({url}){{: target="_blank" }}'
                     else:
-                        # INTERNAL LINKS: Resolving paths to work with new file structure
                         raw_url = urllib.parse.unquote(url)
                         basename = os.path.basename(raw_url)
                         base_no_ext, ext = os.path.splitext(basename)
@@ -192,12 +187,20 @@ for root, dirs, files in os.walk(DOCS_DIR):
 
                 content = content.replace(f"__MDLINK_{i}__", resolved_link)
 
-            # G. Restore Code Blocks
+            for i in range(len(math_blocks)-1, -1, -1):
+                content = content.replace(f"__MATH_{i}__", math_blocks[i])
+
             for i in range(len(code_blocks)-1, -1, -1):
                 content = content.replace(f"__CODE_{i}__", code_blocks[i])
 
-            # --- CALLOUT REPLACER ---
-            def aside_replacer(match):
+            # --- NESTED CALLOUT REPLACER SIMPLIFICADO ---
+            innermost_pattern = re.compile(r'([ \t]*)<aside>((?:(?!<aside>).)*?)</aside>', re.DOTALL | re.IGNORECASE)
+            
+            while True:
+                match = innermost_pattern.search(content)
+                if not match:
+                    break
+                
                 indent = match.group(1) 
                 inner_html = match.group(2)
                 
@@ -211,15 +214,31 @@ for root, dirs, files in os.walk(DOCS_DIR):
                     admonition_type = 'info'
                     title = 'Nota'
                 
-                text_content = re.sub(r'<img[^>]*>', '', inner_html)
+                text_content = re.sub(r'^[ \t]*<img[^>]*>\n?', '', inner_html, flags=re.MULTILINE)
                 
-                lines = text_content.strip().split('\n')
-                formatted_lines = [f"{indent}    {line.strip()}" if line.strip() else f"{indent}    " for line in lines]
-                joined_text = '\n'.join(formatted_lines)
+                lines = text_content.split('\n')
+                processed_lines = []
+                for line in lines:
+                    line = line.rstrip() 
+                    
+                    if line.startswith(indent):
+                        line = line[len(indent):]
+                    
+                    if line:
+                        processed_lines.append(f"{indent}    {line}")
+                    else:
+                        processed_lines.append(f"{indent}    ")
                 
-                return f'{indent}!!! {admonition_type} "{title}"\n{joined_text}\n'
-            
-            content = re.sub(r'([ \t]*)<aside>([\s\S]*?)</aside>', aside_replacer, content)
+                while processed_lines and processed_lines[0].strip() == '':
+                    processed_lines.pop(0)
+                while processed_lines and processed_lines[-1].strip() == '':
+                    processed_lines.pop()
+                    
+                joined_text = '\n'.join(processed_lines)
+                
+                # Substituição exata e direta, sem injetar quebras de linha artificiais
+                replacement = f'{indent}!!! {admonition_type} "{title}"\n{joined_text}'
+                content = content[:match.start()] + replacement + content[match.end():]
 
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.write(content)

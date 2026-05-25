@@ -24,7 +24,6 @@ Note que os motivos citados acima são todos combustíveis para um motor emocion
     - **Estrutura Política**: quase ninguém se manifesta em regimes ditatoriais visto que o sentimento de autopreservação se sobrepõe à luta por uma causa. Por exemplo: a indignação na Coreia do Norte por dano material é gigantesca, mas a estrutura de oportunidade política é nula (o custo de se manifestar é a morte). Logo, não há mobilização.
     - **Articulação de Movimento**: para a indignação virar ato, é preciso infraestrutura. Alguém tem que alugar o carro de som, desenhar os panfletos ou, na era digital, dominar os algoritmos de convocação. Movimentos sociais não são puramente espontâneos; eles exigem redes pré-existentes (sejam igrejas, sindicatos, DCEs ou redes sociais).
 
-
 Feita esta fundamentação, *vamos supor, para fins de simplificação, que a indignação causa automaticamente mobilização política*. 
 
 Agora, vamos analisar se as pautas da greve de 2026 na USP causam indignação no cidadão médio paulistano.
@@ -39,7 +38,6 @@ Ou seja, independentemente do que acontece na USP, o cotidiano do pagador de imp
 
 !!! important "Importante"
     Você pode criar um efeito borboleta para dizer que a situação de fato afetará a vida desse trabalhador. Mas eu estou considerando danos materiais imediatos (que mobilizam a população), e não possíveis prejuízos metafísicos futuros.
-
 
 ### Empatia
 

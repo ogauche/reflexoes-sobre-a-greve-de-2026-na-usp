@@ -20,7 +20,6 @@ Para se ter uma ideia, a folha de pagamento de 2025 foi de R$ 7.391.390.295 dos 
 !!! important "Importante"
     Note que a USP tem fontes de receita própria. Porém grande parte dessa fonte têm destino específico e é bem menor que a arrecadação por ICMS (este historicamente cobre mais de 80% da receita total).
 
-
 ### 2014 - 2023
 
 Entendido o formato de arrecadação da USP, eu vou montar uma linha de tempo simplificada para entendermos o gasto econômico da USP que causou a greve de 2023.
@@ -29,7 +28,6 @@ O desastre começou a ser desenhado entre os anos de **2010** e **2013**. A ent�
 
 !!! important "Importante"
     Note que aqui eu não quero fazer juízo de valor a respeito dos aumentos salariais ou contratações. Minha análise desse aspecto é pura e simplesmente das *consequências*.
-
 
 Para se ter uma ideia, em 2009, a folha de pagamento consumia 81,95% das liberações do Estado (ICMS), enquanto que em 2013, esse número passou para 99,88% (Fonte: [https://sites.usp.br/codage/gestao-orcamentaria/planilha-cruesp/](https://sites.usp.br/codage/gestao-orcamentaria/planilha-cruesp/){: target="_blank" }). Somado a isso, em 2014, o Brasil mergulhou em uma profunda crise econômica. O resultado? A conta chegou implacável na gestão Marco Antonio Zago.
 
@@ -50,7 +48,6 @@ Ou seja, de 2014 a 2023, as contratações dos docentes ficaram extremamente lim
     
     Nele, é perceptível o pico de servidores na gestão Rodas e a subsequente queda nos anos seguintes.
 
-
 ### E Se Aumentassem o PAPFE?
 
 Agora, vou propor um cenário hipotético para entendermos um pouco melhor o impacto do aumento do PAPFE.
@@ -64,12 +61,10 @@ Vamos utilizar os dados do balanço de 2025 ([https://sites.usp.br/codage/wp-con
 !!! important "Importante"
     Note que os 9 bilhões “livres” não passam de pura narrativa.
 
-
 Finalmente, nessas condições, o aumento do PAPFE iria consumir esse dinheiro disponível em **18,18 anos**. Depois disso, a USP teria que acionar protocolos de corte de gastos. Seria o mesmo cenário de 2014.
 
 !!! important "Importante"
     E esse nem é o pior cenário possível! O pior cenário seria uma crise econômica que consumiria grande parte desses 3 bilhões.
-
 
 Sejamos francos, daqui a 18,18 anos, a geração atual de estudantes não estarão mais na USP (eu espero que não como alunos). Neste cenário, esse aumento traria uma satisfação momentânea aos imediatistas, mas teria profundas e incomparáveis consequências para o futuro.
 
@@ -85,7 +80,6 @@ Essa é uma pergunta muito justa, mas precisamos respondê-la com frieza.
 
 !!! important "Importante"
     *Não pretendo* fazer juízo de valor sobre a validade da bonificação.
-
 
 Quando a Reserva da USP começou a crescer desde 2021, os docentes começaram a exigir um aumento salarial. Acontece que aumentos salariais, como vimos acima, é um assunto delicado na administração da USP. Um método de resolver essa insatisfação foi dar a bonificação aos docentes.
 
@@ -135,7 +129,6 @@ Um bolsista PAPFE tem direito de tomar café da manhã, almoçar e jantar todos 
 !!! important "Importante"
     Note que o valor da cesta básica considera somente os ingredientes, *o custo de preparo (gás, eletricidade etc.) não está estimado neste valor*.
 
-
 Agora vamos analisar os impostos. O salário mínimo paulista é um piso salarial bruto, ou seja, precisamos fazer os descontos obrigatórios que um trabalhador deve pagar:
 
 - **INSS**: quem recebe um salário mínimo paulista terá um desconto obrigatório de **R$ 138,04** do INSS todos os meses. O cálculo foi feito utilizando dados atualizados de 2026, e, por motivos de simplificação, não vou explicar como o cálculo é feito, mas te encorajo a pesquisar como ele o é.
@@ -153,7 +146,6 @@ Ou seja, usar um salário mínimo paulista como *parâmetro* para a bolsa PAPFE 
     [Sobre o Apoio da População](sobre-o-apoio-da-populacao.md)
     
     Isto é, as massas não vão querer apoiar uma manifestação para fornecer mais privilégios que elas não têm para outra classe, a de estudantes da USP.
-
 
 ### Especulando um Valor
 

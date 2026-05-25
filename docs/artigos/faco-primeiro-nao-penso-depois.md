@@ -13,7 +13,6 @@ Ora, antes de tomarmos uma decisão *não trivial*, deveríamos (em teoria) pond
     
     [Deusificação do Reitor](deusificacao-do-reitor.md)
 
-
 ## Delegação do Pensar
 
 Se a assembleia decidiu somente a ação (o ato de fazer greve/piquete), quem decidiu o modo (método de negociação) e o fim (as pautas/reivindicações)? Certamente não foram os alunos, visto que isso não foi ponderado na minha assembleia. Na verdade, mais ou menos.

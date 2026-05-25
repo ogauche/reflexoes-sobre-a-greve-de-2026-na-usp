@@ -10,7 +10,6 @@ Se lermos a resolução, veremos que ela delimita parâmetros em relação aos g
     
     !!! important "Importante"
         Note que esse limite de 85% é somente da **Folha de Pagamentos**, nada mais.
-
     
 - **“Artigo 6º** – Todo compromisso com custeio que importe assunção de obrigação a onerar exercícios orçamentários futuros, com ampliação de gastos em relação ao orçamento vigente, deverá ser precedido de estudo de impacto econômico-financeiro, a ser produzido no âmbito de cada unidade de gestão orçamentária da USP. “
 - **“Artigo 7º** – Toda despesa com investimento que importe assunção de nova obrigação com custeio e/ou despesas com pessoal, a onerar exercícios orçamentários futuros, deverá ser precedida de estudo de impacto econômico-financeiro, a ser produzido no âmbito de cada unidade de gestão orçamentária da USP.”
@@ -25,7 +24,6 @@ Por exemplo: um aumento no PAPFE não é proibido, mas exige um Grupo de Trabalh
     Eu faço uma análise complexa em relação a essa pauta no artigo:
     
     [Sobre o Aumento do PAPFE](sobre-o-aumento-do-papfe.md)
-
 
 Portanto, os Parâmetros da USP são uma regra de controle da Folha de Pagamentos para evitar gastos com os quais a universidade não conseguirá arcar e não uma regra que dita: “não podemos realizar gastos extras com nada na USP.”
 
@@ -49,7 +47,6 @@ Ou seja, a verba destinada às universidades estaduais será, em média, 10,00% 
 
 !!! important "Importante"
     Note que o estudo faz o cálculo entre 2012 e 2022 (10 anos) para embasar a média do ICMS-QPE na RTL e a porcentagem da RTL às universidades. Como a forma de arrecadação para as universidades é um tema delicado, seria mais prudente o estudo de um intervalo de tempo bem maior. Isso dá um respaldo bem mais forte ao estudo, visto que, para uma universidade, 10 anos não é muito tempo.
-
 
 A Carta de Reivindicações sugere esse modelo de arrecadação, **contudo**, ela afirma que “Dessa forma, o financiamento da universidade não dependeria de impostos, sendo diretamente afetado com as constantes crises financeiras, aumento do desemprego e, como consequência, diminuição do consumo da população, mas sim de uma fonte constante de financiamento.”
 

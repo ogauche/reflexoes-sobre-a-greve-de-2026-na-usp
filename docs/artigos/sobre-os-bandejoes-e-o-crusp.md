@@ -15,7 +15,6 @@ Estamos, porém, tratando de obrigações legais sanitárias e civis, as quais, 
     
     [Da Política](da-politica.md)
 
-
 Essas pautas precisam de coerção legal, não de uma mesa de negociação. O reitor pode dar qualquer desculpa para um estudante, só não pode dar desculpa a um promotor de justiça.
 
 ## Proposta
@@ -31,7 +30,6 @@ Já foi provado que o DCE tem motivação para fazer isso. Em 2017 foi feita uma
     
     De qualquer modo, precisamos que o DCE divulgue os processos/inquéritos em sua integridade para que o *público tenha transparência a respeito das movimentações estudantis no MPSP*.
 
-
 ### Denúncia no MPSP
 
 Uma denúncia no MPSP não é uma reclamação na ouvidoria da USP!
@@ -43,16 +41,8 @@ A denúncia deve ser robusta, isto é, com ampla prova material. Idealmente, a d
 !!! important "Importante"
     Pode-se argumentar que assumo a má-fé inerente do DCE. Em parte, sim. Vejamos:
     
-    1. Eu tenho *motivos* para isso;
-    
-    <aside>
-    
-    
-    No final, leia o artigo abaixo.
-
-    
-2. *Transparência* não machuca ninguém.
-</aside>
+    1. No último artigo, você verá que eu tenho motivos para isso;
+    2. *Transparência* não machuca ninguém.
 
 Para garantir que o processo seja levado a sério, os alunos devem exigir do DCE que:
 

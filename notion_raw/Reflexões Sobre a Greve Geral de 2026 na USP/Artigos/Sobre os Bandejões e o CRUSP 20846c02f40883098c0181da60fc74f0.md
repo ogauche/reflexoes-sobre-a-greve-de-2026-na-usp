@@ -51,15 +51,7 @@ A denúncia deve ser robusta, isto é, com ampla prova material. Idealmente, a d
 
 Pode-se argumentar que assumo a má-fé inerente do DCE. Em parte, sim. Vejamos:
 
-1. Eu tenho *motivos* para isso;
-    
-    <aside>
-    <img src="https://www.notion.so/icons/push-pin_red.svg" alt="https://www.notion.so/icons/push-pin_red.svg" width="40px" />
-    
-    No final, leia o artigo abaixo.
-    
-    </aside>
-    
+1. No último artigo, você verá que eu tenho motivos para isso;
 2. *Transparência* não machuca ninguém.
 </aside>
 

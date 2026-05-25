@@ -29,10 +29,16 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
-  - attr_list                 # Required to make links open in new tabs
+  - attr_list                 # Required to make links open in new tab
+  - pymdownx.arithmatex:
+      generic: true
 
 extra_css:
   - stylesheets/admonitions.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
   - Home: index.md

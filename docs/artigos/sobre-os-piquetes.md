@@ -36,7 +36,6 @@ Na verdade, ambas as tentativas são muito pouco efetivas. O reitor pode simples
     
     [Deusificação do Reitor](deusificacao-do-reitor.md)
 
-
 Somado a isso, os estudantes da USP têm pouquíssimo poder de barganha porque não produzem riqueza *imediata* para a sociedade. Por exemplo, quando os funcionários da USP entraram em greve neste ano, a reitoria não demorou para fazer um generoso acordo com eles. Porque são bonzinhos? Não, porque a USP *precisa* do labor dos funcionários. Quando estudantes ficam de braços cruzados, qual moeda de fato ganhamos contra a reitoria?
 
 ### Conclusão
@@ -47,7 +46,6 @@ Somado a isso, os estudantes da USP têm pouquíssimo poder de barganha porque n
     Mais sobre em:
     
     [Faço Primeiro, (Não) Penso Depois](faco-primeiro-nao-penso-depois.md)
-
 
 ## Aspectos Morais
 
@@ -65,7 +63,6 @@ O autoritarismo horizontal, por outro lado, é perverso porque vem travestido de
     Sim. De fato foi (apesar de ser uma “maioria” questionável, visto que *grande parte do instituto nem votou*). Porém, o fenômeno é o mesmo: não foram discutidos o planejamento nem as ideias, estes foram delegados a uma vanguarda iluminada: o DCE.
     
     *Mais importante do que isso*, quando eu entrei na USP, em momento algum assinei qualquer acordo da natureza: “a votação da assembleia tem poder acima da lei, se votarem para retirar seus direitos de ir e vir, bem como o de estudar e aprender, eles podem.” Ou seja, mesmo que somente uma pessoa discorde, ainda se trata de uma coerção sem legitimidade alguma.
-
 
 Portanto, temos a coerção aplicada contra seus semelhantes. Em vez de mirar a arma política contra os "opressores" (o governo, a reitoria), a vanguarda mira contra a própria classe (os alunos). A justificativa é sempre que os fins justificam os meios.
 

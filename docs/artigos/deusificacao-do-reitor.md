@@ -19,5 +19,4 @@ Isso significa que eu sou “pró-reitor”? De forma alguma. Isso significa som
 !!! observation "Observação"
     Inclusive, deve haver outros mecanismos de negociação dos quais, se fossem discutidos e estudados *a priori*, poderíamos usufruir.
 
-
 A minha constatação é simplesmente um “reality-check”. Nós, estudantes da USP, somos adultos. Achar que existem soluções fáceis e rápidas para problemas complexos, ou deixar-se seduzir por discursos rasos de assembleia, é uma ingenuidade que não cabe na nossa idade. A realidade administrativa e jurídica se impõe diante de qualquer discurso ideológico.

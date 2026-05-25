@@ -15,14 +15,12 @@ Vamos fazer uma análise política dessa greve.
     
     [Sobre o Aumento do PAPFE](sobre-o-aumento-do-papfe.md)
 
-
 ## Entendendo as Pautas
 
 Toda greve acontece por algum motivo. No caso desse ano, temos uma série de pautas que são os motivos. Olhando-os, podemos concluir que são motivos razoáveis… Ou será que são?
 
 !!! important "Importante"
     É importantíssimo a leitura integral dos outros artigos. Eles explicam as conclusões que estamos tirando.
-
 
 Vamos analisar as pautas:
 
@@ -58,7 +56,6 @@ Então, quem formulou os *termos de adesão* que hoje estendem a greve?
     
     [https://docs.google.com/document/d/1FUYS0LVfMgqTmc94NtmrdY0ZbwB9cM_RiakqfAAjb2s/edit?usp=sharing](https://docs.google.com/document/d/1FUYS0LVfMgqTmc94NtmrdY0ZbwB9cM_RiakqfAAjb2s/edit?usp=sharing){: target="_blank" }
 
-
 Eu acho muito positiva a nota de repúdio do Centro Acadêmico de Filosofia (CAF). Eles tiveram a ombridade de expor a todos o que está ocorrendo nos bastidores da greve. É claro, todos os articuladores da greve vão negar a veracidade da nota, pois ela é comprometedora. Inclusive, o CAF criou um documento com provas de suas afirmações.
 
 Sim, o CAF pode ter interesses pessoais nessa revelação, porém, pouco importa seus interesses. O que interessa é o conteúdo, que provou ser verdadeiro: na minha assembleia foi dito que haverá um grande ato no dia 20/05, assim como descreve a nota, postada muito antes dessa revelação.
@@ -67,7 +64,6 @@ Aqui, meu objetivo é fazer a análise desse documento e jogar luz ao que ele es
 
 !!! observation "Observação"
     A leitura desta nota é reveladora. Saímos finalmente do campo da especulação e das narrativas de assembleia para ver os bastidores reais e o cálculo de poder que move o diretório.
-
 
 Resumidamente, a nota de repúdio informa que o DCE foi emparelhado (isto é, usado para fins privados) por um tal de movimento Correnteza. Ganhos que serão discutidos mais a frente.
 
@@ -93,7 +89,6 @@ Acontece que a minuta, o principal motivo para começar a greve, foi rapidamente
 
 !!! important "Importante"
     Eu não consegui achar o dito processo/inquérito no Ministério Público. Se alguém tiver as informações disponíveis (os documentos, número do inquérito etc.), eu gostaria de saber.
-
 
 Porém, diferente da greve de 2023, que possuía uma pauta unificada: a contratação de docentes devido à falta de professores ministrando disciplinas obrigatórias; essa greve de 2026 tem muitas pautas. Trata-se de um conglomerado confuso e caótico em que ninguém sabe qual concessão satisfará os alunos.
 
@@ -143,13 +138,12 @@ A assembleia é um fenômeno muito interessante de ser observado, ela certamente
 
 - **Tempo de fala**: com um tempo de fala de 2 minutos, não é possível desenvolver um pensamento claro e coerente. O máximo que pode ser feito — e de fato o é — são *discursos populistas*, *discursos performáticos*, *ginásticas mentais*, *proposições duvidosas*, *contrapontos que não contrapõem nada* etc.
 - **Tempo de fala desproporcional**: meu Centro Acadêmico tem **15 minutos** para “introduzir” a assembleia antes dos outros começarem a falar. Isso não teria problema algum se fosse apenas uma introdução imparcial, porém, eles são enviesados, tornando o tempo de fala deles injusto em relação aos outros tempos de fala (de 2 minutos).
-- **Monopólio da minoria**: na *prática*, nas assembleias, sempre é uma pequeníssima minoria decidindo por todos do instituto. Por exemplo, nas últimas duas assembleias do meu instituto — que decidiram a continuidade da greve — tiveram menos de 200 votos cada uma. Meu instituto tem 1.600 alunos matriculados (Fonte: [https://sites.usp.br/codage/wp-content/uploads/sites/264/2026/02/Despesa-Media-por-Aluno-2025.pdf](https://sites.usp.br/codage/wp-content/uploads/sites/264/2026/02/Despesa-Media-por-Aluno-2025.pdf){: target="_blank" }).
+- **Monopólio da minoria**: na *prática*, nas assembleias, sempre é uma pequeníssima minoria decidindo por todos do instituto. Por exemplo, nas últimas duas assembleias do meu instituto — que decidiram a continuidade da greve — tiveram menos de 200 votos cada uma. Meu instituto tem aproximadamente 1.600 alunos matriculados somente na graduação.
     
     !!! important "Importante"
         *Mas todos podem ir votar na assembleia! Não vão porque não querem!*
         
         Sim, mas minha constatação é prática. É uma constatação do que acontece na realidade. Por este motivo, precisamos pensar melhores meios de representação. Por exemplo, institutos que adotaram votos online ou em urna tiveram muito mais votos que em suas assembleias. Isto é, foi muito mais democrático.
-
     
 - **Voto aberto**: não são todos que são confortáveis em deixar seu voto exposto ao público. As pessoas têm motivos para isso: basta lembrar do voto de cabresto e da hostilidade com que pensamentos “dissidentes” são tratados na greve.
 
@@ -169,7 +163,6 @@ O deputado federal Lindbergh Farias (PT) é o exemplo de ouro em relação a com
 
 !!! important "Importante"
     Existem outros exemplos de deputados que fizeram parte de movimentos estudantis. No texto eu deixei somente o exemplo mais notório.
-
 
 ### 3. A Fábrica de Treinamento Mirim
 
