@@ -88,6 +88,10 @@ E esse nem é o pior cenário possível! O pior cenário seria uma crise econôm
 
 Sejamos francos, daqui a 18,18 anos, a geração atual de estudantes não estarão mais na USP (eu espero que não como alunos). Neste cenário, esse aumento traria uma satisfação momentânea aos imediatistas, mas teria profundas e incomparáveis consequências para o futuro.
 
+*Mas se o PAPFE sofrer um aumento para 1.000 reais, então esses 3 bilhões seriam consumidos em 145,31 anos!*
+
+Sim, de fato, mas note que estamos considerando um cenário no qual esses 3 bilhões estarão sendo usados *somente para o aumento extra do PAPFE*. Em um cenário real, a USP poderia usar esse dinheiro para fazer reformas, construções, bonificações etc. Portanto, esses 145 anos cairiam muito rapidamente. De qualquer forma, sejam 18,18 anos ou um século, o caixa é um valor fixo e o PAPFE é uma despesa permanente; portanto uma hora ou outra o dinheiro vai acabar. A análise deve ser feita sobre o que preservará a saúde financeira da universidade no **longo prazo**, não sobre valores fixos. Não é suficiente falar “São 9 bilhões, dá pra fazer tudo!”
+
 Veja, eu não sou nenhum especialista em gestão de patrimônio público, e minha análise considera um cenário hipotético que pode nunca acontecer (apesar de que pode). Pode ser que um aumento do PAPFE seja sim viável. Porém, meu objetivo com tudo isso é mostrar que essa análise é complexa e nem um pouco trivial. Se, desconsiderando uma montanha de fatores, ela já é difícil, imagine considerando-os. Não é um grito em assembleia de um idealista que vai nos salvar. Eu quero mostrar que não existem soluções fáceis e rápidas para problemas complexos. Nesse sentido, os Grupos de Trabalhos com pessoas capacitadas se torna obrigatório.
 
 Como já disse em outros artigos: nenhum discurso raso ou ideológico sobrevive às duras imposições do mundo real. Você, leitor, pode negar a realidade, só não poderá negar as consequências de ter feito isso.
@@ -199,6 +203,8 @@ Novamente, este valor não considera o aluguel e contas como energia elétrica, 
 Aqui é onde a situação se complica, visto que o custo de aluguel em São Paulo é altíssimo. Para resolver isso, vou propor uma solução que a USP poderia adotar.
 
 ### A Proposta
+
+Uma possível solução seria usar o dinheiro da reserva para a construção de novos blocos no CRUSP a fim de suprir a demanda por moradia. No entanto, a medida provavelmente não abarcaria todos os que necessitam. Por isso, proponho a solução alternativa abaixo.
 
 Todos os beneficiários do PAPFE passariam a receber apenas o valor do auxílio de R$ 330,00, e a universidade assumiria a responsabilidade pelo teto.
 

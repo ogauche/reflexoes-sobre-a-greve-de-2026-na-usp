@@ -17,7 +17,7 @@ Vamos fazer uma análise política dessa greve.
 
 ## Entendendo as Pautas
 
-Toda greve acontece por algum motivo. No caso desse ano, temos uma série de pautas que são os motivos. Olhando-os, podemos concluir que são motivos razoáveis… Ou será que são?
+Toda greve acontece por algum motivo. No caso desse ano, temos uma série de pautas que são os motivos. Olhando-os, podemos concluir que são motivos razoáveis… Será que são?
 
 !!! important "Importante"
     É importantíssimo a leitura integral dos outros artigos. Eles explicam as conclusões que estamos tirando.
